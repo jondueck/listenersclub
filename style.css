@@ -1,0 +1,8 @@
+body {
+  font-family: karla;
+}
+
+.wrap {
+  max-width: 80rem;
+  width: 90%;
+}
