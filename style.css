@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   font-family: 'Nimbus Sans Cond', karla, sans-serif;
   font-size: 1.375rem;
@@ -10,6 +14,10 @@ body {
 
 a {
   color: #71D771;
+}
+
+h3 {
+  margin-top: 0;
 }
 
 .wrap {
@@ -22,9 +30,17 @@ a {
 
 }
 
+header {
+  display: block;
+  overflow: hidden;
+  padding: 4rem 0;
+}
+
 .site-title {
   font-size: 5rem;
   text-transform: uppercase;
+  float: left;
+  margin: 0;
 }
 
 .column {
@@ -62,4 +78,36 @@ a {
 
 .column ol {
   font-weight: bold;
+}
+
+.top-list {
+  background: #F4F1EC;
+  display: block;
+  margin-bottom: 4rem;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.top-list__image {
+  max-width: 33%;
+  float: left;
+}
+
+.top-list__info {
+  padding: 2rem;
+  width: 66%;
+  float: left;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+@media (min-width: 768px) {
+  nav {
+    with: 50%;
+    float: right;
+  }
 }
