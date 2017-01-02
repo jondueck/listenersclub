@@ -88,9 +88,11 @@ header {
   overflow: hidden;
 }
 
-.top-list__image {
-  max-width: 33%;
-  float: left;
+@media (min-width: 768px) {
+  .top-list__image {
+    max-width: 33%;
+    float: left;
+  }
 }
 
 .top-list__info {
@@ -117,7 +119,7 @@ nav a {
   display: block;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   nav {
     with: 50%;
     float: right;
