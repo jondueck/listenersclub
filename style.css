@@ -3,6 +3,8 @@
 }
 
 img {
+  height: auto;
+  width: auto;
   max-width: 100%;
 }
 
@@ -38,11 +40,17 @@ header {
 }
 
 .site-title {
-  font-size: 5rem;
+  font-size: 3rem;
   /*text-transform: uppercase;*/
   float: left;
   margin: 0;
   font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .site-title {
+    font-size: 5rem;
+  }
 }
 
 .column {
@@ -82,13 +90,19 @@ header {
   .top-list__image {
     max-width: 33%;
     float: left;
+    padding: 2rem;
   }
 }
 
 .top-list__info {
   padding: 2rem;
-  width: 66%;
-  float: left;
+}
+
+@media (min-width: 768px) {
+  .top-list__info {
+    width: 66%;
+    float: left;
+  }
 }
 
 .top-list__list {
@@ -114,6 +128,8 @@ header {
 .album-title {
   font-style: italic;
 }
+
+
 
 /*.artist {
   letter-spacing: 1px;
@@ -144,4 +160,21 @@ nav a {
     with: 50%;
     float: right;
   }
+}
+
+table {
+  width: 100%;
+}
+
+.album-link {
+  opacity: 0.5;
+}
+
+.album-link:hover {
+  opacity: 1;
+}
+
+.album-link__icon {
+  height: 1.25rem;
+  width: 1.25rem;
 }
