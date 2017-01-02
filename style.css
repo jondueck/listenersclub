@@ -8,8 +8,9 @@ img {
 
 body {
   font-family: 'Leitura News', 'leitura-news', serif;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   background: #DFDFDF;
+  color: #333;
 }
 
 a {
@@ -62,17 +63,6 @@ header {
   margin-right: 0;
 }
 
-.artist {
-  letter-spacing: 1px;
-  color: white;
-  text-shadow:
-  -1px -1px 0 #000,
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-  1px 1px 0 #000;
-  font-weight: normal;
-}
-
 .column {
   text-transform: uppercase;
 }
@@ -102,10 +92,40 @@ header {
 }
 
 .top-list__list {
-  font-family: 'Nimbus Sans Condensed', 'nimbus-sans-condensed', sans-serif;
+  /*font-family: 'Nimbus Sans Condensed', 'nimbus-sans-condensed', sans-serif;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: bold;*/
+  /*font-family: Karla;*/
+  font-size: 1rem;
 }
+
+.top-list__list td  {
+  padding: 0.375rem 0.75rem;
+}
+
+.top-list__list td:first-of-type {
+  padding-left: 0;
+}
+
+.top-list__list td:last-of-type {
+  padding-right: 0;
+}
+
+.album-title {
+  font-style: italic;
+}
+
+/*.artist {
+  letter-spacing: 1px;
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+  font-weight: normal;
+  /*color: #DFDFDF;*/
+}*/
 
 nav {
   padding-top: 1rem;
