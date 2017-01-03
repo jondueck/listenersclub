@@ -28,6 +28,11 @@ a:hover {
   color: rgba(254, 90, 88, 0.66);
 }
 
+
+h1 {
+  font-size: 3rem;
+}
+
 h3 {
   margin-top: 0;
   display: inline-block;
@@ -37,6 +42,10 @@ h3 {
   max-width: 85rem;
   width: 90%;
   margin: auto;
+}
+
+.wrap--narrow {
+  max-width: 50rem;
 }
 
 .row {
@@ -55,6 +64,10 @@ header {
   float: left;
   margin: 0;
   font-weight: bold;
+}
+
+.site-title a {
+  color: inherit;
 }
 
 @media (min-width: 768px) {
