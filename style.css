@@ -17,15 +17,20 @@ body {
 
 a {
   color: #71D771;
+  color: #0253e0;
+  color: #e93f64;
   transition: color 0.1s;
+  text-decoration: none;
 }
 
 a:hover {
   color: #e93f64;
+  color: rgba(254, 90, 88, 0.66);
 }
 
 h3 {
   margin-top: 0;
+  display: inline-block;
 }
 
 .wrap {
@@ -160,6 +165,10 @@ nav a {
   display: block;
 }
 
+nav a:hover {
+  color: #e93f64;
+}
+
 @media (min-width: 1024px) {
   nav {
     padding-top: 1.5rem;
@@ -168,6 +177,9 @@ nav a {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
+    -webkit-column-gap: 3rem; /* Chrome, Safari, Opera */
+    -moz-column-gap: 3rem; /* Firefox */
+    column-gap: 3rem;
   }
 }
 
