@@ -212,3 +212,7 @@ table {
   height: 1rem;
   width: 1rem;
 }
+
+td.links {
+  width: 2rem;
+}
