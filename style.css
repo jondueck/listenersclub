@@ -17,6 +17,11 @@ body {
 
 a {
   color: #71D771;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color: #e93f64;
 }
 
 h3 {
@@ -157,8 +162,12 @@ nav a {
 
 @media (min-width: 1024px) {
   nav {
+    padding-top: 1.5rem;
     with: 50%;
     float: right;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
   }
 }
 
