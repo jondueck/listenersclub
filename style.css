@@ -12,13 +12,25 @@ body {
   font-family: 'Leitura News', 'leitura-news', serif;
   font-size: 1.125rem;
   background: #DFDFDF;
+  background: #f9f9f9;
+  background: #F6F7F6;
+  /*background: #CAF3EB;*/
+  /*background: #C5EADD;*/
   color: #333;
+  color: #5B5E6B;
+  color: #7E8993;
+  color: #31383E;
+  color: #757564;
+  /*color: #4D4EF4;*/
+  margin: 0;
 }
 
 a {
-  color: #71D771;
-  color: #0253e0;
+  /*color: #71D771;*/
+  /*color: #0253e0;*/
   color: #e93f64;
+  /*color: #FA4644;*/
+  color: #AAA075;
   transition: color 0.1s;
   text-decoration: none;
 }
@@ -64,6 +76,7 @@ header {
   float: left;
   margin: 0;
   font-weight: bold;
+  color: #AAA075;
 }
 
 .site-title a {
@@ -103,10 +116,13 @@ header {
 }
 
 .top-list {
-  background: #F4F1EC;
+  /*background: #F4F1EC;*/
+  /*background: #F9F9F9;*/
   display: block;
   margin-bottom: 4rem;
   overflow: hidden;
+  border: 1px solid #CAD3DB;
+
 }
 
 @media (min-width: 768px) {
@@ -125,6 +141,7 @@ header {
   .top-list__info {
     width: 66%;
     float: left;
+    /*padding-top: 0;*/
   }
 }
 
@@ -151,20 +168,6 @@ header {
 .album-title {
   font-style: italic;
 }
-
-
-
-/*.artist {
-  letter-spacing: 1px;
-  color: white;
-  text-shadow:
-  -1px -1px 0 #000,
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-  1px 1px 0 #000;
-  font-weight: normal;
-  /*color: #DFDFDF;*/
-}*/
 
 nav {
   padding-top: 1rem;
@@ -215,4 +218,34 @@ table {
 
 td.links {
   width: 2rem;
+}
+
+.a-inline {
+  display: inline-block;
+}
+
+.site-footer {
+  margin-top: 2rem;
+  /*background: #31383E;*/
+  background-color: #CAD3DB;
+  background-color: #DFE1D7;
+  padding: 3rem 0;
+  font-size: 1rem;
+  /*font-family: sans-serif;*/
+  text-align: center;
+}
+
+.footer-logo {
+  height: 3rem;
+  display: inline-block;
+  /*margin-bottom: 2rem;*/
+}
+
+.post-hero {
+  width: 111%;
+  margin-left: -5.5%;
+}
+
+.post-article {
+  margin-bottom: 6rem;
 }
