@@ -23,6 +23,7 @@ body {
   color: #757564;
   /*color: #4D4EF4;*/
   margin: 0;
+  line-height: 1.6;
 }
 
 a {
@@ -151,6 +152,7 @@ header {
   font-weight: bold;*/
   /*font-family: Karla;*/
   font-size: 1rem;
+  line-height: 1.2;
 }
 
 .top-list__list td  {
@@ -248,4 +250,11 @@ td.links {
 
 .post-article {
   margin-bottom: 6rem;
+}
+
+.contributor-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
