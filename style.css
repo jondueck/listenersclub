@@ -9,7 +9,7 @@ img {
 }
 
 body {
-  font-family: 'Leitura News', 'leitura-news', serif;
+  font-family: 'Neuzeit Grotesk', 'neuzeit-grotesk', 'Leitura News', 'leitura-news', serif;
   font-size: 1.125rem;
   background: #DFDFDF;
   background: #f9f9f9;
@@ -44,11 +44,17 @@ a:hover {
 
 h1 {
   font-size: 3rem;
+  font-family: 'Leitura News', 'leitura-news', serif;
+}
+
+h2 {
+  font-family: 'Leitura News', 'leitura-news', serif;
 }
 
 h3 {
   margin-top: 0;
   display: inline-block;
+  font-family: 'Leitura News', 'leitura-news', serif;
 }
 
 .wrap {
@@ -169,6 +175,7 @@ header {
 
 .album-title {
   font-style: italic;
+  font-family: 'Leitura News', 'leitura-news', serif;
 }
 
 nav {
@@ -257,4 +264,8 @@ td.links {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+article {
+  font-family: 'Leitura News', 'leitura-news', serif;
 }
