@@ -45,12 +45,13 @@ a:hover {
 h1,
 .h1 {
   font-size: 3rem;
-  font-family: 'Lusitana', 'Leitura News', 'leitura-news', serif;
+  font-family: 'Leitura News', 'leitura-news', serif;
+  /*font-family: 'Lusitana', 'Leitura News', 'leitura-news', serif;*/
 }
 
 h2,
 .h2 {
-  font-family: 'Lusitana', 'Leitura News', 'leitura-news', serif;
+  font-family: 'Leitura News', 'leitura-news', serif;
 }
 
 h3,
