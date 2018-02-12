@@ -42,16 +42,19 @@ a:hover {
 }
 
 
-h1 {
+h1,
+.h1 {
   font-size: 3rem;
-  font-family: 'Leitura News', 'leitura-news', serif;
+  font-family: 'Lusitana', 'Leitura News', 'leitura-news', serif;
 }
 
-h2 {
-  font-family: 'Leitura News', 'leitura-news', serif;
+h2,
+.h2 {
+  font-family: 'Lusitana', 'Leitura News', 'leitura-news', serif;
 }
 
-h3 {
+h3,
+.h3 {
   margin-top: 0;
   display: inline-block;
   font-family: 'Leitura News', 'leitura-news', serif;
@@ -268,4 +271,29 @@ td.links {
 
 article {
   font-family: 'Leitura News', 'leitura-news', serif;
+}
+
+.archive {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.album-archive__item {
+  width: 23%;
+  margin-right: 2.5%;
+  text-align: center;
+}
+
+.album-archive__item:nth-of-type(4n) {
+  margin-right: 0;
+}
+
+.album-archive__artist,
+.album-archive__year,
+.album-archive__rating {
+  display: block;
+}
+
+.album-archive__rating {
+  font-family: 'Neuzeit Grotesk', 'neuzeit-grotesk', 'Leitura News', 'leitura-news', sans-serif;
 }
