@@ -9,7 +9,7 @@ img {
 }
 
 body {
-  font-family: 'Neuzeit Grotesk', 'neuzeit-grotesk', 'Leitura News', 'leitura-news', serif;
+  font-family: 'Neue-Haas-Unica', sans-serif;
   font-size: 1.125rem;
   background: #DFDFDF;
   background: #f9f9f9;
@@ -45,8 +45,7 @@ a:hover {
 h1,
 .h1 {
   font-size: 3rem;
-  font-family: 'Leitura News', 'leitura-news', serif;
-  /*font-family: 'Lusitana', 'Leitura News', 'leitura-news', serif;*/
+  font-family: 'Franklin Gothic', 'Leitura News', 'leitura-news', serif;
 }
 
 h2,
